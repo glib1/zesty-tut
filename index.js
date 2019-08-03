@@ -21,4 +21,4 @@ bot.on("message", async message => {
   }
 });
 
-bot.login(process.env.NjAyODk2OTMxMTc3NDk2NTkw.XUTYSg.Dvi5PEf5mIboujiMbBYoLFI9S70);
+bot.login(process.env.token);
