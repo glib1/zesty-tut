@@ -18,25 +18,25 @@ bot.on("message", async message => {
 
   if (cmd === `${prefix}ping`){
     message.channel.send("Pong!");
-  }
-});
+  
+
 
 bot.login(process.env.token); bot.login(process.env.token); if (cmd === `${prefix}Verify`){
     message.channel.send("We are working to develop the verify command please wait atleast a year!");
-  }
-}); bot.login(process.env.token); if (cmd === `${prefix}WhoIStheOWNER`){
+  
+ if (cmd === `${prefix}WhoIStheOWNER`){
     message.channel.send("#proRobloxUSER is the owner.");
-  }
-});
-bot.login(process.env.token); if (cmd === `${prefix}DEVS`){
+  
+   
+if (cmd === `${prefix}DEVS`){
     message.channel.send("0 DEVS we have lol.");
-  }
-});
-bot.login(process.env.token); if (cmd === `${prefix}WhatsTheScript`){
+  
+
+ if (cmd === `${prefix}WhatsTheScript`){
     message.channel.send("Secret...");
-  }
-});
-bot.login(process.env.token); if (cmd === `${prefix}Help`){
+  
+
+ if (cmd === `${prefix}Help`){
     message.channel.send(" Heres all the commands -Ping -Verify -WhoIStheOWNER -DEVS -WhatsTheScript ");
-  }
-});
+  
+
