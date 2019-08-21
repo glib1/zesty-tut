@@ -3,7 +3,7 @@ const bot = new Discord.Client({disableEveryone: true});
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online!`);
-  bot.user.setActivity(`Hey, Wassup!`);
+  bot.user.setActivity(`-Help`);
 });
 
 bot.on("message", async message => {
@@ -21,4 +21,22 @@ bot.on("message", async message => {
   }
 });
 
-bot.login(process.env.token);
+bot.login(process.env.token); bot.login(process.env.token); if (cmd === `${prefix}Verify`){
+    message.channel.send("We are working to develop the verify command please wait atleast a year!");
+  }
+}); bot.login(process.env.token); if (cmd === `${prefix}WhoIStheOWNER`){
+    message.channel.send("#proRobloxUSER is the owner.");
+  }
+});
+bot.login(process.env.token); if (cmd === `${prefix}DEVS`){
+    message.channel.send("0 DEVS we have lol.");
+  }
+});
+bot.login(process.env.token); if (cmd === `${prefix}WhatsTheScript`){
+    message.channel.send("Secret...");
+  }
+});
+bot.login(process.env.token); if (cmd === `${prefix}Help`){
+    message.channel.send(" Heres all the commands -Ping -Verify -WhoIStheOWNER -DEVS -WhatsTheScript ");
+  }
+});
