@@ -21,7 +21,7 @@ bot.on("message", async message => {
   
 
 
-bot.login(process.env.token); bot.login(process.env.token); if (cmd === `${prefix}Verify`){
+ bot.login(process.env.token); if (cmd === `${prefix}Verify`){
     message.channel.send("We are working to develop the verify command please wait atleast a year!");
   
  if (cmd === `${prefix}WhoIStheOWNER`){
