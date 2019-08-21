@@ -21,7 +21,7 @@ bot.on("message", async message => {
   
 
 
- bot.login(process.env.token); if (cmd === `${prefix}Verify`){
+  if (cmd === `${prefix}Verify`){
     message.channel.send("We are working to develop the verify command please wait atleast a year!");
   
  if (cmd === `${prefix}WhoIStheOWNER`){
@@ -38,5 +38,8 @@ if (cmd === `${prefix}DEVS`){
 
  if (cmd === `${prefix}Help`){
     message.channel.send(" Heres all the commands -Ping -Verify -WhoIStheOWNER -DEVS -WhatsTheScript ");
+    }
+});
   
+  bot.login(process.env.token);
 
